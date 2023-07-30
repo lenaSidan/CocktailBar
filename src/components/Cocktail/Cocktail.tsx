@@ -73,8 +73,8 @@ export default function Cocktail(): JSX.Element {
       <div className={styles.image}>
         <img src={cocktail.strDrinkThumb} alt={cocktail.strDrink} />
       </div>
+      <button type="button" onClick={loadCocktail}>New Cocktail</button>
       <div className={styles.text}>
-        <button type="button" onClick={loadCocktail}>New Cocktail</button>
         <h1>{cocktail.strDrink}</h1>
         <p>
           <strong>Category:</strong> {cocktail.strCategory}
@@ -92,6 +92,17 @@ export default function Cocktail(): JSX.Element {
           <li>{cocktail.strMeasure1} {cocktail.strIngredient1}</li>
           <li>{cocktail.strMeasure2} {cocktail.strIngredient2}</li>
           <li>{cocktail.strMeasure3} {cocktail.strIngredient3}</li>
+          <li>{cocktail.strMeasure4} {cocktail.strIngredient4}</li>
+          <li>{cocktail.strMeasure5} {cocktail.strIngredient5}</li>
+          <li>{cocktail.strMeasure7} {cocktail.strIngredient7}</li>
+          <li>{cocktail.strMeasure8} {cocktail.strIngredient8}</li>
+          <li>{cocktail.strMeasure9} {cocktail.strIngredient9}</li>
+          <li>{cocktail.strMeasure10} {cocktail.strIngredient10}</li>
+          <li>{cocktail.strMeasure11} {cocktail.strIngredient11}</li>
+          <li>{cocktail.strMeasure12} {cocktail.strIngredient12}</li>
+          <li>{cocktail.strMeasure13} {cocktail.strIngredient13}</li>
+          <li>{cocktail.strMeasure14} {cocktail.strIngredient14}</li>
+          <li>{cocktail.strMeasure15} {cocktail.strIngredient15}</li>
         </ul>
       </div>
     </div>
