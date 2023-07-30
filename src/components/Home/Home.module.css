@@ -1,0 +1,8 @@
+.container {
+  height: 400px;
+  background-image: url('./images/bild.avif');
+  background-color: rgb(60, 57, 63);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% auto;
+}

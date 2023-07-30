@@ -1,0 +1,31 @@
+.container {
+    background-color: lavender;
+    width: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+
+button {
+    background-color: #570299;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.activity {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    margin: 5px 0;
+}
+
+h1 {
+    color: blueviolet;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
